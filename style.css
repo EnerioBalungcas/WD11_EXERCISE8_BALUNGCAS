@@ -1,0 +1,25 @@
+.headingOneStyle{
+   color: green;
+   text-align: center;
+   font-size: 30px;
+   font-weight: bold;
+
+}
+
+.headingTwoStyle{
+    color: rgb(30, 9, 148);
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+#fixedHeader{
+    width: 100%;
+    top: 0;
+    background-color: white;
+    position: fixed;
+    text-align: center;
+    height: 150px;
+    z-index: 10000;   
+    
+}

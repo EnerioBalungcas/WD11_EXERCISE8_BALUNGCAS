@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 8 - On line Library</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container w-100">
+        <header>
+            <h1 class="headingOneStyle">WD11 EXERCISE 8</h1>
+            <h1 class="headingTwoStyle">Online Library</h1>
+            <br>
+        </header>
+    </div>
+    <div class="container w-100">
+        <form>
+            <div class="row">
+                <div class="col-8">
+                    <input type="text" placeholder="Enter Book Title, Author, etc." class="form-control form-control-sm">
+            </div>
+                <div class="col-2">
+                    <input type="text" placeholder="Filter" class="form-control form-control-sm " >
+                </div>
+                <div class="col-2">
+                    <input type="submit" Value="SEARCH" class=" bg-primary form-control form-control-sm text-white" >
+                </div>
+            </div>
+        </form>
+    </div>
+    <br>
+    <div class="container rounded bg-secondary bg-opacity-25 w-100">
+        <table class="table table-striped table-bordered table-hover table-condensed table-secondary w-100">
+            <thead>
+                <th>Book Cover</th>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>Published</th>
+                <th>Action</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="img/Lord_of_the_rings.jpg" class="img-thumbnail" style="width:400px;"></a></td>
+                    <td>The Lord of The Rings</td>
+                    <td>J.R.R Tolkien</td>
+                    <td class="date">February 15, 2012</td>
+                    <td>
+                        <div class="row">
+                            <input type="submit" Value="Add to Cart" class=" bg-primary form-control form-control-sm text-white">
+                            <!--alternatively: <button class="btn btn-outline-secondary btn-sm text-white bg-primary"> Add to Cart</button>-->
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Add to Wishlist" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Buy Now" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/LeonardoDaVinci.jpg" class="img-thumbnail" style="width:400px;"></a></td>
+                    <td>Leonardo. The Complete Drawings</td>
+                    <td>Johannes Nathan</td>
+                    <td class="date">October 31, 2014</td>
+                    <td>
+                        <div class="row">
+                            <input type="submit" Value="Add to Cart" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Add to Wishlist" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Buy Now" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/Without_a_Trace.jpg" class="img-thumbnail" style="width:400px;"></a></td>
+                    <td>Without a Trace</td>
+                    <td>Danielle Steel</td>
+                    <td class="date">January 3, 2013</td>
+                    <td>
+                        <div class="row">
+                            <input type="submit" Value="Add to Cart" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Add to Wishlist" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Buy Now" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/ThingWeDoInTheDark.jpg" class="img-thumbnail" style="width:400px;"></a></td>
+                    <td>Things We Do in the Dark</td>
+                    <td>Jennifer Hillier</td>
+                    <td class="date">July 19, 2021</td>
+                    <td>
+                        <div class="row">
+                            <input type="submit" Value="Add to Cart" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Add to Wishlist" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Buy Now" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/TheRecordKeeper.jpg" class="img-thumbnail" style="width:400px;"></a></td>
+                    <td>The Record Keeper</td>
+                    <td>Charles Martin</td>
+                    <td class="date">July 5, 2022</td>
+                    <td>
+                        <div class="row">
+                            <input type="submit" Value="Add to Cart" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Add to Wishlist" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Buy Now" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td><img src="img/TheColony.jpg" class="img-thumbnail" style="width:400px;"></a></td>
+                    <td>The Colony: Faith and Blood in a Promised Land</td>
+                    <td>Sally Denton</td>
+                    <td class="date">June 28, 2022</td>
+                    <td>
+                        <div class="row">
+                            <input type="submit" Value="Add to Cart" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Add to Wishlist" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                        <br>
+                        <div class="row">
+                            <input type="submit" Value="Buy Now" class=" bg-primary form-control form-control-sm text-white">
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            
+        </table>
+                
+        </div>
+
+</body>
+</html>
